@@ -84,6 +84,26 @@ hits the top border of the page.
 -set the width of the carousel and center it
 -set the height of pictures and center them inside the carousel items
 -move the carousel caption under the pictures */
+#promise {
+    padding-top: 100px;
+}
+
+#myCarousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel-inner .item img {
+    height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    height: 200px;
+    position: relative;
+    left: auto;
+    right: auto;
+}
 
 /* Style the pictures and nav-brand for different screens */
 
