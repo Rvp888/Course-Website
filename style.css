@@ -1,7 +1,9 @@
 /* Body: 
 -Give the Body element a relative position for the scrollspy to work
 -Add a font-family to the whole page */
-
+body {
+    font-family: 'Vollkorn', sans-serif;
+}
 /* Video:
 -Set the video as background, make it fixed.
 -make sure it appears behind all elements.
@@ -17,11 +19,17 @@
 -Hide the video and set picture as background (use media queries) 
 -make it spread across the whole webpage. */
 
-/* Style the navigation bar using a navbar css generator. */
+
 
 /* Style the Home section and elements inside it:
 -reduce the margin-bottom of h1 and h2. 
 -style the button and its hover state. */
+#home {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
 
 /* Style the About section: 
 -add padding-top so that the nav link is active before the About section
@@ -39,7 +47,12 @@ hits the top border of the page.
 
 /* Style the footer */
 
+
+
+/* Style the navigation bar using a navbar css generator. */
+
 .navbar-custom {
+    font-size: 18px;
     background-color: #1b3759;
     border-color: #132740;
     background-image: -webkit-gradient(linear, left 0%, left 100%, from(#274f80), to(#1b3759));
@@ -50,11 +63,11 @@ hits the top border of the page.
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff274f80', endColorstr='#ff1b3759', GradientType=0);
   }
   .navbar-custom .navbar-brand {
-    color: #c0c0c0;
+    color: #fff;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: #a7a7a7;
+    color: #fff;
     background-color: transparent;
   }
   .navbar-custom .navbar-text {
