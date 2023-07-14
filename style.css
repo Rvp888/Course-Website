@@ -18,7 +18,9 @@ body {
 /*-Video does not work in small devices:
 -Hide the video and set picture as background (use media queries) 
 -make it spread across the whole webpage. */
-
+@media (max-width: 768px) {
+  
+}
 
 
 /* Style the Home section and elements inside it:
@@ -106,6 +108,26 @@ hits the top border of the page.
 }
 
 /* Style the pictures and nav-brand for different screens */
+@media (max-width: 768px) {
+  .carousel-inner .item img {
+    height: 300px;
+  }
+  .carousel-inner h2 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-inner .item img {
+    height: 200px;
+  }
+  .carousel-inner h2 {
+    font-size: 17px;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+}
 
 /* Style the footer */
 
