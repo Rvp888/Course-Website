@@ -3,6 +3,7 @@
 -Add a font-family to the whole page */
 body {
     font-family: 'Vollkorn', sans-serif;
+    position: relative;
 }
 /* Video:
 -Set the video as background, make it fixed.
