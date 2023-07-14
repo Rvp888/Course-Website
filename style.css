@@ -138,6 +138,13 @@ hits the top border of the page.
 }
 
 /* Style the footer */
+.footer {
+  background-color: rgba(29, 167, 179, 0.1);
+  color: rgb(232, 227, 227);
+  padding: 10px 0;
+  margin-top: 150px;
+  font-size: 15px;
+}
 
 
 
