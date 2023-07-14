@@ -19,7 +19,14 @@ body {
 -Hide the video and set picture as background (use media queries) 
 -make it spread across the whole webpage. */
 @media (max-width: 768px) {
-  
+  body {
+    background: url(https://images.pexels.com/photos/16850988/pexels-photo-16850988/free-photo-of-view-of-the-night-sky.jpeg?auto=compress&cs=tinysrgb&w=400) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #bgvideo {
+    display: none;
+  }
 }
 
 
